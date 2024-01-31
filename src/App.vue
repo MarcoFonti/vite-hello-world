@@ -2,6 +2,8 @@
 <script>
 // ! IMPORTO APPHEADER
 import AppHeader from './components/AppTitle.vue'
+// ! IMPORTO APPHERO
+import AppHero from './components/AppHero.vue'
 
 export default{
     name: 'MyApp',
@@ -9,7 +11,8 @@ export default{
 
     }),
     components: {
-        AppHeader
+        AppHeader,
+        AppHero
     }
 };
 </script>
@@ -18,6 +21,8 @@ export default{
 <template>
 <!-- APPHEADER -->
   <AppHeader/>
+<!-- APPHERO -->
+  <AppHero/>
 </template>
 
 <!-- CSS -->
