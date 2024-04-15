@@ -1,17 +1,29 @@
 <!-- JS -->
 <script>
-export default{
+
+
+/* ESPORTAZIONE */
+export default {
+
+
+    /* NOME PAGINA */
     name: 'AppHero',
-    
+
 };
+
 </script>
+
 
 <!-- HTML -->
 <template>
-<main>
-    <img src="../../public/image.png" alt="Immagine">
-</main>
+
+    <!-- MAIN -->
+    <main>
+        <img src="../../public/image.png" alt="Immagine">
+    </main>
+
 </template>
+
 
 <!-- CSS -->
 <style>

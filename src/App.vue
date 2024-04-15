@@ -1,32 +1,43 @@
 <!-- JS -->
 <script>
-// ! IMPORTO APPHEADER
+
+
+/* IMPORTO APPHEADER */
 import AppHeader from './components/AppTitle.vue'
-// ! IMPORTO APPHERO
+
+
+/* IMPORTO APPHERO */
 import AppHero from './components/AppHero.vue'
 
-export default{
-    name: 'MyApp',
-    data: () => ({
 
-    }),
-    components: {
-        AppHeader,
-        AppHero
-    }
+/* ESPORTAZIONE */
+export default {
+
+
+  /* NOME PAGINA */
+  name: 'MyApp',
+
+
+  /* COMPONENTI */
+  components: {
+    AppHeader,
+    AppHero
+  }
 };
 </script>
 
+
 <!-- HTML -->
 <template>
-<!-- APPHEADER -->
-  <AppHeader/>
-<!-- APPHERO -->
-  <AppHero/>
+
+  <!-- APPHEADER -->
+  <AppHeader />
+
+  <!-- APPHERO -->
+  <AppHero />
+
 </template>
 
+
 <!-- CSS -->
-<style>
-
-</style>
-
+<style></style>

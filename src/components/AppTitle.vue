@@ -1,7 +1,16 @@
 <!-- JS -->
 <script>
-export default{
+
+
+/* ESPORTAZIONE */
+export default {
+
+
+  /* NOME APP */
   name: 'AppHeader',
+
+
+  /* DATI DI BASE */
   data: () => ({
     paragraph: 'La mia prima app con Vite!'
   })
@@ -10,14 +19,18 @@ export default{
 
 <!-- HTML -->
 <template>
+
+  <!-- HEADER -->
   <header>
-    <p>"{{paragraph}}"</p>
+    <p>"{{ paragraph }}"</p>
   </header>
+
 </template>
+
 
 <!-- CSS -->
 <style>
 p {
-    color: #a52a2a;
+  color: #a52a2a;
 }
 </style>
